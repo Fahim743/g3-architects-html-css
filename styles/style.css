@@ -464,6 +464,7 @@ body{
     }
     .first-section-texts .first-section-text{
         width: 100%;
+        height: auto;
     }
     .first-section-image img {
         width: 100%;
@@ -494,7 +495,8 @@ body{
     }
     .second-section-desc{
         width: 100%;
-        text-align: ce;
+        padding: 0;
+        height: auto;
     }
 
     /* Responsive for third part */
@@ -535,6 +537,10 @@ body{
         margin-top: 10px;
         position: unset;
     }
+    #orange-button{
+        width: 300px;
+        height: auto;
+    }
 
     /* Facts */
     .facts{
@@ -544,9 +550,12 @@ body{
         align-items: center;
         width: 100%;
         padding: 0;
+        margin-left: 0px;
+}
     }
     .facts-details{
         text-align: center;
+        width: 100%;
     }
     /* Award */
     .award{
