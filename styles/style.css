@@ -1,0 +1,579 @@
+/* common area  */
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+/* common areas close */
+
+/* Header */
+
+.Header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 144, 14, 0.1);;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 45px;
+}
+.menu li{
+    list-style: none;
+}
+/* Header Ends */
+
+
+/* FIrst Section (Banner Section) */
+
+/* First section-Text Part */
+.first-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 144, 14, 0.1);;
+}
+.first-section-texts{
+    display: flex;
+    flex-direction: column;
+    
+}
+.first-section-texts .first-section-title{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+ font-weight: 700;
+ font-size: 64px;
+}
+.first-section-texts .first-section-text{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    height: 52px;
+    width: 868px;
+}   
+.fs-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first-section-texts .first-section-button{
+    background-color: #FF900E;
+    color: white;
+    width: 180px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Text part done */
+
+/* First section image */
+.first-section-image{
+    margin-top: 30px;
+    
+}
+.first-section-image img{
+    height: 700px;
+    width: 1320px;
+}
+/* first section image done */
+
+
+/* First Section done */
+
+
+/* second section square image part */
+.second-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 70px;
+    margin-bottom: 130px;
+}
+/* second section image part done */
+
+
+/*  2nd Section started*/
+
+/* second part image */
+.square-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+    padding-left: 57px;
+}
+/* second part square images done */
+
+
+/* second section text part */
+.second-section-title{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+#of-our{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+#feature{
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+}
+.second-section-desc{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    width: 537px;
+    height: 78px;
+    padding-right: 10px;
+}
+.second-button{
+    color: white;
+    background-color:  #FF900E;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 64px;
+}
+/* second section texts done */
+
+
+/* second section done */
+
+
+
+/* third Section started */
+.third-section{
+    display: flex;
+    gap:54px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:130px ;
+}
+/* third section texts */
+.third-section-texts{
+    width: 626px;
+}
+.third-section-title{
+    font-weight: 700;
+    font-size: 45px;
+    border-left: 5px solid #FF900E;
+    padding-left: 25px;
+}   
+.third-section-details{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+.third-section-textbox{
+    width: 586px;
+    height: 171px;
+    background-color: white;
+    box-shadow: 0px 4px 30px rgb(221, 221, 221);
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px  ;
+}
+.textbox-title{
+    font-weight: 600;
+    font-size: 20px;
+}
+.textboox-details{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;   
+}
+
+/* third section text end */
+
+/* third section image */
+.third-section-images{
+    position: relative;
+}
+.third-button{
+    position: absolute;
+    left: -12px;
+    bottom: -106px;
+
+
+}
+#orange-button{
+    width: 342px;
+    height: 200px;
+    background-color: #FF900E;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+#orange-button span{
+    font-weight: 700;
+    font-size: 65px;
+
+}
+/* third section image done  */
+/* third section done */
+
+/* fact section started */
+
+.facts{
+    height: 220px;
+    margin-bottom: 10px;
+    margin-left: 32px;
+}
+.fatcs-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+.facts-details{
+    width: 550px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+
+/* fact section done */
+
+/* Award section */
+.award{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+.award-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    transition: all 0.5s;
+}
+.award-box:hover{
+    transform: scale(1.5);
+}
+.award-box img{
+    margin-top: 4px;
+    width: 45.22px;
+    height: 45.22px;
+    
+  
+}
+
+.award-box h2{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.award-box p{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin-bottom:20px ;
+    margin-top: 5px;
+}
+
+/* award section done */
+
+/* Client Rating */
+.container{
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.section-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+.projects{
+    display: flex;
+    gap: 53.17px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.project{
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.project:hover{
+    transform: scale(1.10);
+}
+
+.project .project-banner img{
+    width: 224px;
+    height: 104px;
+}
+.project-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.project-author{
+    color: orange;
+    font-size: 15px;
+}
+.project-info .ratings span{
+    margin-left: 06px;
+    margin-right: 10px;
+}
+.filled{
+    color: #FFC014;
+}
+.empty{
+    color: #AEAEAE;
+}
+.project-duration{
+    background-color: #FFE4E8;
+    border-radius: 15px;
+    color: #FF4A60;
+}
+.project-banner img{
+    border: none;
+    border-radius: 8px;
+}
+
+/* Client Rating DOne */
+
+
+/* Our Sponsor section */
+
+.sponsor-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sponsore-text{
+    text-align: center;
+}
+.sponsor-text-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.sponsor-text-desc{
+    width: 542px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+/* our sponsore sectionn done */
+
+
+
+/* row of sponsors logos started */
+.sponsor-logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 30px;
+    margin-bottom: 130px;
+}
+.logo img{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    width: 150px;
+    height: 50px;
+
+}
+
+/* footer section start*/
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+}
+.footer-text{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #424242;
+
+
+}
+/* footer ends */
+/* for Mobile  screen*/
+/* Responsive for sponsor logo row */
+@media screen and (max-width:576px) {
+    /* Responsive of 1st section */
+    .Header{
+        flex-direction: column;
+        width: 100%;
+    }
+    .menu{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .first-section{
+        width: 100%;
+    }
+    .first-section-texts{
+        width: 100%;
+    }
+    .first-section-texts .first-section-text{
+        width: 100%;
+    }
+    .first-section-image img {
+        width: 100%;
+        height: 100%;
+    }
+    /* responsive of 2d part */
+
+    .second-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .square-images{
+        grid-template-columns: repeat(1, 100%);
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .square-images img{
+        margin: 0 auto;
+    }
+    .second-section-texts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .second-section-desc{
+        width: 100%;
+        text-align: ce;
+    }
+
+    /* Responsive for third part */
+
+    .third-section{
+        flex-direction: column;
+        width: 100%;
+    }
+    .third-section-texts {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .third-section-textbox{
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .textboox-details{
+        text-align: center;
+    }
+    .third-section-images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .third-section-images img{
+        width: 100%;
+    }
+    .third-button {
+        margin-top: 10px;
+        position: unset;
+    }
+
+    /* Facts */
+    .facts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+    }
+    .facts-details{
+        text-align: center;
+    }
+    /* Award */
+    .award{
+        flex-direction: column;
+    }
+    .award-box{
+        margin-top: 10px ;
+    }
+    /* projects */
+    .projects{
+        flex-direction: column;
+
+    }
+    .container{
+        padding: 0;
+    }
+    /* our sponsor */
+    .sponsore-text{
+        width: 100%;
+    }
+    .sponsor-text-desc{
+        width: 100%;
+    }
+    /* Responsive for sponsor logo row */
+    .sponsor-logos{
+        flex-direction: column;
+        height: auto;
+    }
+    
+}
